@@ -14,16 +14,11 @@ function getWelcomeTemplate({ name, age, school, createdAt }) {
   console.log(result);
 }
 
-// const myuser = {
-//   name: '영희',
-//   age: 12,
-//   school: '토끼초등학교',
-//   createdAt: '2020-01-02',
-// };
+const myuser = {
+  name: '영희',
+  age: 12,
+  school: '토끼초등학교',
+  createdAt: '2020-01-02',
+};
 
-const name = '영희';
-const age = 12;
-const school = '토끼초등학교';
-const createdAt = '2020-01-02';
-
-getWelcomeTemplate({ name, age, school, createdAt });
+getWelcomeTemplate(myuser);
